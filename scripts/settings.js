@@ -16,7 +16,7 @@ settings = (function() {
 		"viewerMathRenderer": "katex",
 		"viewerTheme": "light",
 		"hljsTabSize": 4,
-		"documentContent": "",
+		"documentContent": "Text2MindMap\n\tTurn tab-indented lists into mind maps\n\t\tLike this!\n\tPress tab to indent lines\n\t\tAnd shift + tab to unindent\n\tIt's pretty cool huh?",
 		"documentTitle": "Untitled Document"
 	};
 
