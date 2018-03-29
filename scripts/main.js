@@ -1,4 +1,8 @@
 (function() {
+    if (/Mobi/.test(navigator.userAgent)) {
+        alert("The website doesn't currently work very well in mobile browsers, so it's recommended that you use a computer. Sorry about that!")
+    }
+
     $(document).ready(function() {
         documentTitle.setTitle(settings.getSetting("documentTitle"));
 
