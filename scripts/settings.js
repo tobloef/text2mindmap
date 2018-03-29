@@ -5,20 +5,6 @@ settings = (function() {
 	
 	// Default values for various user settings.
 	const defaultValues = {
-		"editorFontFamily": "monospace",
-		"editorFontSize": 13,
-		"editorIndentSize": 4,
-		"editorUseTabs": true,
-		"editorTheme": "light",
-		"editorShowLineNumbers": false,
-		"editorUseBigHeaders": false,
-		"editorBigHeaders": false,
-		"viewerFontFamily": "sans-serif",
-		"viewerFontSize": 16,
-		"viewerHljsTheme": "default",
-		"viewerMathRenderer": "katex",
-		"viewerTheme": "light",
-		"hljsTabSize": 4,
 		"documentContent": "Text2MindMap\n\tTurn tab-indented lists into mind \n\t\tPress Tab to indent lines\n\t\tPress Shift + Tab to unindent lines\n\tDrag nodes to re-organize them\n\tThis project is based on the now dead site Text2MindMap.com",
 		"documentTitle": "Untitled Document"
 	};
