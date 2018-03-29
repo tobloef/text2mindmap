@@ -30,9 +30,11 @@ navbar = (function() {
 
 		// When the dropdown item is clicked, call the appropriate function.
 		$links.on("click", function(event) {
+			if ($(this).attr("href") === "#") {
+				event.preventDefault();
+			}
 			const id = $(this).attr("id");
 			if (id in idFunctionMap) {
-				event.preventDefault();
 				idFunctionMap[id]($(this));
 				closeDropdowns();
 			}
