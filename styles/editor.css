@@ -37,5 +37,5 @@
 	tab-size : 4;
 	outline: none;
 	overflow: auto;
-	white-space: nowrap;
+	white-space: pre-wrap
 }
