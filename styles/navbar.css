@@ -19,6 +19,17 @@
 	height: 100%;
 }
 
+.navbar-icon {
+	font-size: 35px;
+    float: right;
+    color: white;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 6px;
+	box-sizing: border-box;
+    display: inline-block;
+}
+
 .navbar-button {
 	min-width: 60px;
 }
