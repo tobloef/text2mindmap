@@ -1,5 +1,6 @@
 // Helper functions for saving and loading user settings with localstorage.
 settings = (function() {
+	// Used for seperating settings on the same domain
 	const prefix = "text2mindmap";
 	
 	// Default values for various user settings.
