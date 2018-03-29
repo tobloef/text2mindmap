@@ -29,7 +29,7 @@ navbar = (function() {
 		let $links = $(".navbar a");
 
 		// When the dropdown item is clicked, call the appropriate function.
-		$links.on("click touchstart", function(event) {
+		$links.on("click", function(event) {
 			if ($(this).attr("href") === "#") {
 				event.preventDefault();
 			}
