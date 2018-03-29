@@ -43,6 +43,7 @@
             if (keyCode == 9 || keyCode == 13) { 
                 updateMindMap();
             } 
+            unsavedChanges.setHasChanges(true);
         });
     })
 }());

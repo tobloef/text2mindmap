@@ -19,7 +19,7 @@ settings = (function() {
 		"viewerMathRenderer": "katex",
 		"viewerTheme": "light",
 		"hljsTabSize": 4,
-		"documentContent": "Text2MindMap\n\tTurn tab-indented lists into mind maps\n\t\tLike this!\n\tPress tab to indent lines\n\t\tAnd shift + tab to unindent\n\tIt's pretty cool huh?",
+		"documentContent": "Text2MindMap\n\tTurn tab-indented lists into mind \n\t\tPress Tab to indent lines\n\t\tPress Shift + Tab to unindent lines\n\tDrag nodes to re-organize them\n\tThis project is based on the now dead site Text2MindMap.com",
 		"documentTitle": "Untitled Document"
 	};
 
