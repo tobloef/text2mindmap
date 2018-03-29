@@ -5,6 +5,7 @@
 	font-size: 15px;
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 }
 
 .navbar > ul {
@@ -60,7 +61,7 @@
 .dropdown-content {
 	z-index: 1000;
 	display: none;
-	position: absolute;
+	position: fixed;
 	padding: 5px 0;
 	list-style: none;
 	background-color: white;

@@ -29,11 +29,13 @@
 #textArea {
 	resize: none;
 	width: 100%;
-	height: 100%;
+	height: calc(100% - 25px);
 	box-sizing: border-box;
 	background-color: transparent;
 	border: none;
 	font-size: 14px;
 	tab-size : 4;
 	outline: none;
+	overflow: auto;
+	white-space: nowrap;
 }

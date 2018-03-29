@@ -1,7 +1,7 @@
 #viewer-pane {
 	height: 100%;
 	width: 50%;
-	display: inline-block;
+	display: inline;
 	top: 0;
     overflow: hidden;
 }
