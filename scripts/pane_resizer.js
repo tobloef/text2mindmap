@@ -60,8 +60,8 @@ paneResizer = (function() {
 	
 		// When the buttons to open a collapsed pane is pressed,
 		// open the appropriate pane.
-		$editorCollapseButton.on("click", toggleViewer);
-		$viewerCollapseButton.on("click", toggleEditor);
+		$editorCollapseButton.on("click touchstart", toggleViewer);
+		$viewerCollapseButton.on("click touchstart", toggleEditor);
 		
 		$dragbar.on("mousedown", function(mousedownEvent) {
 			dragging = true;

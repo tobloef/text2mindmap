@@ -11,12 +11,12 @@ modal = (function() {
 		$close = $(".close-modal");
 
 		// Close the modal
-		$close.on("click", function() {
+		$close.on("click touchstart", function() {
 			$(this).closest(".modal").removeClass("active");
 		});
 
 		// Switch to the clicked tab
-		$tabs.on("click", function() {
+		$tabs.on("click touchstart", function() {
 			$contents.removeClass("active");
 			$(`#${$(this).data("tab")}`).addClass("active");
 			$tabs.removeClass("active");
