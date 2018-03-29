@@ -122,20 +122,31 @@
 					<div class="modal-body">
 						<div class="tab-content active" id="setting-tab-general">
                             <form>
-                                <input type="checkbox" id="lockAfterMoving" checked="true" />Lock after moving
-                                <br>
-                                <input type="radio" name="colormode" id="mode1" coloringMode="1">Level</input>
-                                <br>
-                                <input type="radio" name="colormode" id="mode2" coloringMode="2"  checked="checked">Branch</input>
-                                <br>
-                                <div id="colorsdiv"></div>
+								<div class="form-group">
+									<label class="control-label">Lock after moving</label>
+									<div class="checkbox-control">
+										<input type="checkbox" id="lockAfterMoving" checked="true">
+										<label for="lockAfterMoving">Freeze a node after it has been moved</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label">Color mode</label>
+									<select id="coloringMode">
+										<option value="2">Branch</option>
+										<option value="1">Level</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label class="control-label">Colors</label>
+									<div id="colorsdiv" class="form-div"></div>
+								</div>
                             </form>
 						</div>
 					</div>
 					<div class="modal-footer">
 						<button class="button close-modal">Cancel</button>
 						<button class="button dark" id="modal-settings-save">
-							<i class="fa fa-floppy-o fa-lg"></i>Save
+							<i class="fa fa-save fa-lg"></i>Save
 						</button>
 					</div>
 				</div>

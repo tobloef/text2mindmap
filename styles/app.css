@@ -66,7 +66,7 @@ html, body {
 	background-color: #222222;
 }
 
-.button .fa {
+.button svg {
 	margin-right: 7px;
 }
 
@@ -126,6 +126,17 @@ form input[type="number"]
 	font-size: 1em;
 	height: 1em;
 	min-width: 0;
+}
+
+form .form-div {
+	flex: 1;
+	margin-right: 3em;
+	padding: 0.5em;
+}
+
+form .minicolors-swatch {
+	margin-bottom: 10px;
+	margin-right: 10px;
 }
 
 .checkbox-control {
